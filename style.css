@@ -1,3 +1,29 @@
-.container {
-  background-image: url("images/ivip2.jpg");
+
+.image {
+  position: relative;
+  width: auto;
+  height: auto;
 }
+img {
+  max-width: 100%;
+}
+
+.navbar-custom {
+  background-image: linear-gradient(black, rgb(151, 39, 142));
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+
+.navbar-custom .navbar-nav,
+.navbar-custom .nav-link {
+  color: rgba(255,255,255,.5);
+}
+
+.navbar-custom .navbar-toggler,
+.navbar-custom .navbar-toggler-icon {
+  color: rgba(255,255,255,.5);
+}
+
